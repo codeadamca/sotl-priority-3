@@ -46,5 +46,16 @@ include('connect.php');
 
     </script>
 
+    <table border="1" cellpadding="3" cellspacing="0">
+        <tr>
+            <td width="190">Winter 2023 (before WIC)</td>
+            <td width="30" style="background-color:ff2b3;"></td>
+        </tr>
+        <tr>
+            <td width="190">Fall 2023 (WIC case study)</td>
+            <td width="30" style="background-color:#fa6d00;"></td>
+        </tr>
+    </table>
+
 </body>
 </html>
