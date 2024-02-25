@@ -47,7 +47,7 @@ include('connect.php');
             ORDER BY name';
         $skills = mysqli_query($connect, $query);
 
-        echo '<canvas id="chart-'.$student['id'].'" style="width:600px; height:400px;"></canvas>';
+        echo '<canvas id="chart-'.$student['id'].'" style="width:100%;max-width:600px; max-height:400px;" width="600" height="400"></canvas>';
 
         echo '<table border="1" cellpadding="3" cellspacing="0">';
 
