@@ -10,6 +10,26 @@ include('connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills Data Dunmp</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <style>
+
+    body {
+        font-family: Arial;
+    }
+    table {
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    td {
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    tr {
+        border: none;
+    }
+
+    </style>
 </head>
 <body>
 
@@ -104,7 +124,8 @@ include('connect.php');
             echo '{
                 data: ['.implode(',', $row['data']).'],
                 borderColor: "'.$row['colour'].'",
-                fill: false
+                fill: false,
+                
             }';
 
         }

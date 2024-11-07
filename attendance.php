@@ -10,6 +10,26 @@ include('connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance Data Dunmp</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <style>
+
+    body {
+        font-family: Arial;
+    }
+    table {
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    td {
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    tr {
+        border: none;
+    }
+
+    </style>
 </head>
 <body>
 
@@ -49,7 +69,7 @@ include('connect.php');
     <table border="1" cellpadding="3" cellspacing="0">
         <tr>
             <td width="190">Winter 2023 (before WIC)</td>
-            <td width="30" style="background-color:ff2b3;"></td>
+            <td width="30" style="background-color:#ff2b34;"></td>
         </tr>
         <tr>
             <td width="190">Fall 2023 (WIC case study)</td>
