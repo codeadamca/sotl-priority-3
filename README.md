@@ -11,6 +11,7 @@ A sandbox for crunching numbers for the Priority 3 SOTL project.
 * [Priority 3 Projects](https://humber.ca/academic-division/priority-3-projects)
 * [BrickMMO](https://brickmmo.com/)
 
+<br>
 <a href="https://codeadam.ca">
-<img src="https://codeadam.ca/images/code-block.png" width="100">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
